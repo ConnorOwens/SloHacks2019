@@ -36,6 +36,7 @@ public class PlaylistView extends AppCompatActivity {
         // use a linear layout manager
         //mLayoutManager = new LinearLayoutManager(this);
         //playlist.setLayoutManager(mLayoutManager);
+        /*
         Song despacito = new Song();
         despacito.setArtist("Luis Fonsi");
         despacito.setSongName("Despacito");
@@ -53,7 +54,7 @@ public class PlaylistView extends AppCompatActivity {
         myDataset.add(despacito);
         myDataset.add(stoopid);
         myDataset.add(niteAndDay);
-
+*/
         // specify an adapter (see also next example)
         PlaylistViewAdapter adapter = new PlaylistViewAdapter(myDataset);
         playlist.setAdapter(adapter);
