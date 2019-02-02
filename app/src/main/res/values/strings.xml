@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Spotify PlaylistMaker</string>
+    <string name="title_activity_find_aplaylist">FindAPlaylist</string>
+    <string name="title_activity_add_to_playlist">AddToPlaylist</string>
 </resources>

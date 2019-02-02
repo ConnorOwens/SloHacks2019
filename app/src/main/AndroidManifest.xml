@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NameNewPlaylist" />
+        <activity
+            android:name=".FindAPlaylist"
+            android:label="@string/title_activity_find_aplaylist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddToPlaylist"
+            android:label="@string/title_activity_add_to_playlist"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
