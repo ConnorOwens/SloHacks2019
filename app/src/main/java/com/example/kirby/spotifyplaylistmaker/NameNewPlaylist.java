@@ -8,6 +8,9 @@ import android.widget.EditText;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class NameNewPlaylist extends AppCompatActivity {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference databaseReference = database.getReference();
@@ -21,10 +24,11 @@ public class NameNewPlaylist extends AppCompatActivity {
         EditText passwordEditText = (EditText) findViewById(R.id.newPlaylistPassword);
         String newPlaylistName =  nameEditText.getText().toString();
         String newPlaylistPassword = passwordEditText.getText().toString();
+        List inputList = new ArrayList();
         DatabaseReference playlistsRef = databaseReference.child("playlistNames");
         DatabaseReference playlistInst = playlistsRef.child(newPlaylistName);
         playlistInst.child("password").setValue(newPlaylistPassword);
-        playlistInst.child("songList");
+        playlistInst.child("songList").setValue(inputList);
 
     }
 }
