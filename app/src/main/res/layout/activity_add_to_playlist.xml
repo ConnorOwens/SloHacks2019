@@ -65,14 +65,15 @@
         app:layout_constraintTop_toBottomOf="@+id/artistPrompt" />
 
     <Button
-        android:id="@+id/searchButton"
+        android:id="@+id/addSongButton"
         android:layout_width="250dp"
         android:layout_height="75dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="152dp"
         android:layout_marginEnd="80dp"
-        android:text="Search"
+        android:text="Add"
         android:textSize="30dp"
+        android:onClick="addSong"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/songArtist" />
