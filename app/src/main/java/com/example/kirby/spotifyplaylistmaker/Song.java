@@ -26,6 +26,14 @@ public class Song {
         return upVotes;
     }
 
+    public void incrementUpVotes() {
+        upVotes = upVotes + 1;
+    }
+
+    public void decrementUpVotes() {
+        upVotes = upVotes - 1;
+    }
+
     public void setUpVotes(int upVotes) {
         this.upVotes = upVotes;
     }

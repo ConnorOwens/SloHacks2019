@@ -27,7 +27,7 @@ public class Start extends AppCompatActivity {
         final Button addToAPlaylist = findViewById(R.id.button3);
         addToAPlaylist.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Start.this, PlaylistView.class));
+                startActivity(new Intent(Start.this, PlaylistAuthentication.class));
             }
         });
     }

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 
 import java.util.ArrayList;
@@ -36,7 +37,7 @@ public class PlaylistView extends AppCompatActivity {
         // use a linear layout manager
         //mLayoutManager = new LinearLayoutManager(this);
         //playlist.setLayoutManager(mLayoutManager);
-        /*
+
         Song despacito = new Song();
         despacito.setArtist("Luis Fonsi");
         despacito.setSongName("Despacito");
@@ -54,11 +55,12 @@ public class PlaylistView extends AppCompatActivity {
         myDataset.add(despacito);
         myDataset.add(stoopid);
         myDataset.add(niteAndDay);
-*/
+
         // specify an adapter (see also next example)
         PlaylistViewAdapter adapter = new PlaylistViewAdapter(myDataset);
         playlist.setAdapter(adapter);
         playlist.setLayoutManager(new LinearLayoutManager(this));
 
     }
+
 }
