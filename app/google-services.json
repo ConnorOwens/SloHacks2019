@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "467721182738",
+    "firebase_url": "https://spotifyplaylistmaker-dd070.firebaseio.com",
+    "project_id": "spotifyplaylistmaker-dd070",
+    "storage_bucket": "spotifyplaylistmaker-dd070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467721182738:android:608b4e3f9787c271",
+        "android_client_info": {
+          "package_name": "com.example.kirby.spotifyplaylistmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467721182738-uoc6bvp9bekmf05cv9oms4posnup3s1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kirby.spotifyplaylistmaker",
+            "certificate_hash": "27d0fa07091f4c8d3adc18bd631ff5b67ce4772f"
+          }
+        },
+        {
+          "client_id": "467721182738-d0106f55e4ka01smg5a5ii2ldace2986.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNMVBe_JNGhJftw6zTNZppmPZCNK9vy_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467721182738-d0106f55e4ka01smg5a5ii2ldace2986.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
